@@ -10,8 +10,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins:wght@200&display=swap" rel="stylesheet">        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
 
@@ -20,58 +19,65 @@
     </head>
 
     <body>
-    <nav style="background-color: #202020;" class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="siteLogo" src="images/logo.png" alt="Logo ITMentorstva.com">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars text-white fa-2x"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="text-white fw-bold nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-white fw-bold nav-link" href="#">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-white fw-bold nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="text-white fw-bold nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <header class="container d-none">
-        <h1>ITMentorstva</h1>
-        <hr>
-        <p>Front-end developer focused on creating Web and Mobile applications. I really like different projects that solve real problems.</p>
-        <a>About me</a>
-        <a>Portfolio</a>
+    <div class="header-holder">
+        <nav class="navbar navbar-expand-lg navbar-light p-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="siteLogo" src="images/logo.png" alt="Logo ITMentorstva.com">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars text-white fa-2x"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="text-white fw-bold nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white fw-bold nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white fw-bold nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white fw-bold nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        <div class="d-flex icons">
-            <div class="icon-circle">
-                <i class="text-white fa-2x fa-brands fa-instagram"></i>
+        <header class="container mt-5">
+            <h1 class="text-site fw-bold font-lato">ITMentorstva</h1>
+            <hr class="bg-site col-md-3 mt-2 mb-2 headerContentSeparator">
+            <h2 class="text-white fw-bold font-lato">Da li si spreman da postaneš programer?</h2>
+            <p class="text-site-default col-5 mt-3">Front-end developer focused on creating Web and Mobile applications. I really like different projects that solve real problems.</p>
+
+            <div class="mt-4 mb-3 d-flex col-5">
+                <a class=" me-2 btn btn-outline-light"><i class="fa-regular fa-user"></i> About me</a>
+                <a class="ms-4 btn btn-primary bg-site-button text-dark"><i class="fa-regular fa-circle-down"></i> Portfolio</a>
             </div>
-            <div class="icon-circle">
-                <i class="text-white fa-2x fa-brands fa-linkedin"></i>
+
+            <div class="d-flex icons mt-4">
+                <div class="icon-circle">
+                    <i class="text-white insta-hover mediumIcon fa-brands fa-instagram"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="text-white ln-hover mediumIcon fa-brands fa-linkedin"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="text-white gth-hover mediumIcon fa-brands fa-github"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="text-white yt-hover mediumIcon fa-brands fa-youtube"></i>
+                </div>
+                <div class="icon-circle">
+                    <i class="text-white tiktok-hover mediumIcon fa-brands fa-tiktok"></i>
+                </div>
             </div>
-            <div class="icon-circle">
-                <i class="text-white fa-2x fa-brands fa-github"></i>
-            </div>
-            <div class="icon-circle">
-                <i class="text-white fa-2x fa-brands fa-youtube"></i>
-            </div>
-            <div class="icon-circle">
-                <i class="text-white fa-2x fa-brands fa-tiktok"></i>
-            </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     </body>
 </html>

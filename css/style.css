@@ -5,16 +5,77 @@
 }
 
 /**
+    Common elements
+ */
+.bg-site-button {
+    background-color: #59EED3;
+    border: 1px solid #59EED3;
+}
+
+.bg-site-button:hover {
+    background-color: #0fa5e5 !important;
+    border: 1px solid #0fa5e5 !important;
+    font-weight: 800;
+}
+
+.ln-hover:hover {
+    color: #0077B5 !important;
+}
+
+.gth-hover:hover {
+    color: #bd2c00 !important;
+}
+
+.yt-hover:hover {
+    color: #FF0000 !important;
+}
+
+.tiktok-hover:hover {
+    color: #000000 !important;
+}
+
+.font-lato {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.insta-hover:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.mediumIcon {
+    font-size: 1.55rem;
+}
+
+/**
     Colors
  */
 .bg-site {
     background-color: #59EED3;
+}
+.text-site {
+    color: #59EED3;
 }
 
 .text-site-default {
     color: #8F8F8F;
 }
 
+/**
+    Header
+ */
+.header-holder {
+    background: url("../images/header-full-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.headerContentSeparator {
+    padding: 2px;
+    opacity: 1;
+}
 
 /**
     Navigation
@@ -27,12 +88,12 @@
     Element styles
  */
 .icons {
-    gap: 5px;
+    gap: 15px;
 }
 
 .icon-circle {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     background-color: #353535;
     border-radius: 50%;
     display: flex;
