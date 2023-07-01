@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+    Colors
+ */
+.bg-site {
+    background-color: #59EED3;
+}
+
+.text-site-default {
+    color: #8F8F8F;
+}
+
+
+/**
+    Element styles
+ */
+.icons {
+    gap: 5px;
+}
+
+.icon-circle {
+    width: 55px;
+    height: 55px;
+    background-color: #353535;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
