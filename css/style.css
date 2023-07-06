@@ -28,6 +28,10 @@
     background-color: #161616;
 }
 
+.bg-secondary-dark {
+    background-color: #1D1D1D;
+}
+
 .ln-hover:hover {
     color: #0077B5 !important;
 }
@@ -63,6 +67,7 @@
 .bg-site {
     background-color: #59EED3;
 }
+
 .text-site {
     color: #59EED3;
 }
@@ -116,4 +121,11 @@
  */
 .navbar-nav {
     gap: 35px;
+}
+
+/**
+    Courses
+ */
+.coursesInfo {
+    gap: 10px;
 }
