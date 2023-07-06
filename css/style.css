@@ -12,6 +12,7 @@
     color: #59EED3 !important;
 }
 
+
 .bg-site-button {
     background-color: #59EED3;
     border: 1px solid #59EED3;
@@ -21,6 +22,10 @@
     background-color: #0fa5e5 !important;
     border: 1px solid #0fa5e5 !important;
     font-weight: 800;
+}
+
+.bg-dark {
+    background-color: #161616;
 }
 
 .ln-hover:hover {
@@ -73,7 +78,7 @@
     background: url("../images/header-full-bg.png");
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
     background-repeat: no-repeat;
 }
 
