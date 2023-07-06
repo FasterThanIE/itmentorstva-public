@@ -12,6 +12,17 @@
     color: #59EED3 !important;
 }
 
+.badge-html {
+    background-color: #e34c26;
+}
+
+.badge-css {
+    background-color: #264de4;
+}
+
+.badge-php {
+    background-color: rgb(119, 123, 179);
+}
 
 .bg-site-button {
     background-color: #59EED3;
@@ -128,6 +139,11 @@
  */
 .coursesInfo {
     gap: 10px;
+}
+
+.projectCard {
+    border: 0;
+    box-shadow: 2px 1px 2px 2px #1f5e53;
 }
 
 @media only screen and (max-width: 640px) {
